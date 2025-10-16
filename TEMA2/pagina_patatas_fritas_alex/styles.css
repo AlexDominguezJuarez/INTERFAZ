@@ -1,0 +1,17 @@
+p{
+    font-size: 16px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    text-align: center;
+    background-color:black ;
+    color:white;
+}
+
+#ingredientes{
+    border: black solid 1px;
+    border-radius: 10px ;
+    padding: 10px;
+}
