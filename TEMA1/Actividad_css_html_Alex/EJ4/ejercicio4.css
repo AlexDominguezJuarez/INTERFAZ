@@ -1,0 +1,16 @@
+h1, h2{
+    background-color:green ;
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+html{
+    font-family:Arial ;
+}
+strong{
+    color:blue;
+}
+p{
+    text-align:justify ;
+}

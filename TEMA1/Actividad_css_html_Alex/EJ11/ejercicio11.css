@@ -1,0 +1,30 @@
+div {
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 8px;
+
+}
+#caja2{
+    background-color: purple;
+    left: 30px;
+    top: 100px;
+    z-index: 3;
+}
+#caja3{
+    background-color: yellow;
+    left: 50px;
+    top: 130px;
+    color: black;
+    z-index: 2;
+}
+#caja1{
+    background-color: turquoise;
+    
+    z-index: 1;
+}
