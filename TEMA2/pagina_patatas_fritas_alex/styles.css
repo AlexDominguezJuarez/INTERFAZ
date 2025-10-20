@@ -1,17 +1,50 @@
+html{
+    background-color: #FADBD8;
+    margin: 20px;
+}
+
+body{
+
+     font-family: 'Roboto', sans-serif;
+ }
+
+main {
+    display: flex;
+    flex-direction: column; /* apila verticalmente */
+    align-items: flex-start; /* alinea a la izquierda */
+}
+
+nav{
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+}
+
+a{
+    color:white;
+}
+
 p{
     font-size: 16px;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-}
+
 header{
     text-align: center;
     background-color:black ;
     color:white;
 }
 
-#ingredientes{
-    border: black solid 1px;
-    border-radius: 10px ;
-    padding: 10px;
+.cuadro1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 0;      /* solo espacio arriba y abajo */
+    padding: 20px;
+    background-color: #F1948A;
+    line-height: 1.5;
+    width: fit-content; /* se ajusta al contenido */
+    max-width: 90%;     /* opcional: que no se salga de la pantalla */
 }
+
+
+
