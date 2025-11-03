@@ -1,0 +1,19 @@
+.container{
+    background-color: darkseagreen;
+    height: 100px;
+}
+
+
+.container-fluid{
+    background-color:goldenrod;
+    height: 100px;
+}
+
+.col-azul{
+    background-color: blue;
+    height: 100px;
+}
+.col-amarillo{
+    background-color: yellow;
+    height: 100px;
+}

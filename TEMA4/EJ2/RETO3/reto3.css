@@ -1,0 +1,17 @@
+.container-fluid{
+    background-color: orange;
+    height: 100px;
+}
+
+.col-roja{
+    background-color: red;
+    height: 100px;
+}
+.col-azul{
+    background-color: blue;
+    height: 100px;
+}
+.col-amarilla{
+    background-color: yellow;
+    height: 100px;
+}
