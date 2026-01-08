@@ -1,0 +1,26 @@
+body{
+    display: flex;
+}
+
+@keyframes desplazar {
+    from{
+        transform:
+        translateX(0);
+}
+
+    to{
+        transform:
+        translateX(200vh);
+
+    }
+
+}
+
+.bloque{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    animation: desplazar 5s ease-in-out;
+
+}

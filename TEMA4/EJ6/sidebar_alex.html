@@ -8,6 +8,9 @@
 <body>
 
 <div class="container-fluid text-start">
+
+    <button class="btn btn-primary d-block d-md-none" data-bs-toggle="offcanvas" data-bs-target="#menuMovil">
+        Menú</button>
     <div class="row ">
 <!--        ESCRITORIO-->
         <div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
@@ -18,14 +21,38 @@
                 <a class="list-group-item" href="#">Configuracion</a>
             </div>
         </div>
-        <div class="col-12 col-md-9 col-lg-10 d-none d-md-block">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
+        <div class="col-12 col-md-9 col-lg-10">
+            <div class="card m-3">
+                <div class="card-body mx-auto ">
                     <h5 class="card-title">GUIA DE VIAJES</h5>
                     <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+                    <p class="card-text">Explora los rincones mas fascinantes del mundo, desde ciudades modernas llenas de vida hasta paraísos naturales donde el tiempo
+                    parece detenerse. Esta guía está diseñada para inspirarte a planear tu proxima aventura</p>
+                    <p class="card-text">Descubre recomendaciones sobre gastronomia local, rutas escénicas, actividades culturales y experiencias que harán de tu viaje algo inolvidable.
+                    Preparate para llenar tu maleta de recuerdos
+                    </p>
+                    <div class="alert alert-info" role="alert">
+                        Consejo: Reserva tus alojamientos con anticipación durante temporadas altas para evitar precios elevaods y poca disponibilidad
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+
+        </div>
+        <!-- OFFCANVAS SOLO MÓVIL -->
+        <div class="offcanvas offcanvas-start d-md-none" tabindex="-1" id="menuMovil">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Navegacion</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <h3>Navegación</h3>
+                <div class="list-group">
+                    <a class="list-group-item" href="#">Inicio</a>
+                    <a class="list-group-item" href="#">Perfil</a>
+                    <a class="list-group-item" href="#">Configuración</a>
                 </div>
             </div>
         </div>
