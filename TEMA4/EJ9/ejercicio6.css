@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: grey;
+}
+
+.libro{
+    position: relative;
+    width: 175px;
+    height: 200px;
+    perspective: 800px;
+}
+
+
+.portada{
+    transform-origin: left;
+    z-index: 2;
+
+    position: absolute;
+    height: 200px;
+    width: 175px;
+    background-color: green;
+    animation: abrirPortada 4s linear 1s forwards;
+}
+
+.contenido{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    align-content: center;
+    height: 200px;
+    width: 175px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes abrirPortada {
+
+    from{
+        transform:rotateY(0deg)
+
+    }
+    to{
+        transform: rotateY(-180deg);
+        background: white;
+        color: white;
+
+
+    }
+}

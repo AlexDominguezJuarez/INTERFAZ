@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque:hover{
+    animation: aumento 3s linear ;
+
+}
+
+@keyframes aumento {
+    0% { transform:scale(1)}
+    33% { transform:scale(2)}
+    66% { transform:scale(0.25)}
+    100% { transform:scale(1) }
+
+}

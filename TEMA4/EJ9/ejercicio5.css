@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.contenedor{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    animation: dateVuelta 6s 4 ;
+    perspective: 500px;
+    transform-style: preserve-3d
+}
+
+
+
+@keyframes dateVuelta {
+    from{
+        transform:rotateY(0deg)
+
+    }
+    to{
+        transform: rotateY(180deg);
+            background-color: blue;
+
+    }
+}
